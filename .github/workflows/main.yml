@@ -1,8 +1,51 @@
-name: hello-world
-on: push
-jobs:
-my-jobs:
- runs-on: ubuntu-latest
- steps:
-   - name: my-step
-   run: echo "hello-world"
+import random
+
+bot - ["Rock", "Scissors", "Paper"]
+temp = random.randrange(0,3)
+print("1. Rock")
+print ("2. Scissors")
+print("3. Paper")
+
+user - input("input your choose :")
+
+if user == "Rock":
+    if bot [temp] == "Rock":
+        print (f"User = {user}")
+        print(f"Bot = {bot[temp]}")
+        print ("Draw")
+    elif bot [temp] == "Scissors":
+        print (f"User = {user}")
+        print(f"Bot = {bot[temp]}")
+        print ("Win")
+    elif bot[temp] == "Paper":
+        print(F"User = (user]")
+        print (f"Bot = {bot[temp]}")
+        print ("Lose")
+
+elif user == "Scissors":
+    if bot [temp] == "Rock":
+        print(f"User = {user}")
+        print (f"Bot = {bot [temp]}")
+        print ("Lose")
+    elif bot [temp] == "Scissors":
+        print (f"User = {user}")
+        print(f"Bot - {bot [temp]}")
+        print ("Draw")
+    elif bot [temp] == "Paper":
+        print (f"User - {user}")
+        print (f"Bot - {bot[temp]}")
+        print ("win")
+
+elif user == "Paper":
+    if bot[temp] == "Rock":
+        print(f"User = {user}")
+        print(f"Bot = {bot[temp]}")
+        print ("Win" )
+    elif bot [temp] == "Scissors":
+        print (f"User = {user}")
+        print(f"Bot = {bot[temp]}")
+        print ("Lose")
+    elif bot [temp] == "Paper":
+        print (f"User = {user}")
+        print (f"Bot = {bot[temp]}")
+        print ("Draw")
