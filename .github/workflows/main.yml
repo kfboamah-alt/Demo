@@ -3,6 +3,6 @@ on: push
 jobs:
 my-jobs:
  runs-on: ubuntu-latest
-  steps:
+ steps:
    - name: my-step
    run: echo 'hello-world'
